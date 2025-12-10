@@ -38,6 +38,7 @@ const Index = () => {
     { icon: 'Calendar', title: 'Год выпуска', description: 'Автомобили не старше 5 лет от года производства' },
     { icon: 'CheckCircle', title: 'Техническое состояние', description: 'Без серьезных повреждений, в исправном состоянии' },
     { icon: 'FileCheck', title: 'Документы', description: 'Полный пакет документов из КНР, подтверждающих происхождение' },
+    { icon: 'Zap', title: 'Мощность двигателя', description: 'С 01.12.2025 льготный утильсбор (3400₽/5200₽) только для авто до 160 л.с. Для более мощных - расчет по новой прогрессивной шкале' },
     { icon: 'Shield', title: 'Юридическая чистота', description: 'Отсутствие обременений, залогов и ограничений' },
   ];
 
@@ -55,13 +56,13 @@ const Index = () => {
       <header className="relative h-[600px] bg-gradient-to-br from-secondary to-secondary/90 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/30 z-10"></div>
         <img 
-          src="https://cdn.poehali.dev/projects/93cb60e1-a445-4a18-8776-0e9ccca8796d/files/a617b8e2-c1a5-446e-a48b-75d006669859.jpg" 
-          alt="Китайские автомобили" 
+          src="https://cdn.poehali.dev/projects/93cb60e1-a445-4a18-8776-0e9ccca8796d/files/7989665f-f1f5-47ee-8476-ce9e87333a7a.jpg" 
+          alt="BeijingAuto" 
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-            Китайские автомобили из КНР в РФ
+            BeijingAuto из КНР в РФ
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mb-8 animate-fade-in">
             Профессиональная доставка и растаможка новых и б/у автомобилей китайского производства. 
@@ -231,7 +232,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Телефон</h3>
-                  <p className="text-white/90">+7 (900) 123-45-67</p>
+                  <p className="text-white/90">+7 977 804 57 17</p>
                   <p className="text-white/90">Ежедневно с 9:00 до 21:00</p>
                 </div>
               </div>
@@ -242,18 +243,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Email</h3>
-                  <p className="text-white/90">info@china-auto.ru</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
-                  <Icon name="MapPin" size={24} />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Адрес</h3>
-                  <p className="text-white/90">г. Владивосток, ул. Светланская, 123</p>
-                  <p className="text-white/90">Офис 456</p>
+                  <p className="text-white/90">a_aladyshev@internet.ru</p>
                 </div>
               </div>
 
@@ -262,22 +252,10 @@ const Index = () => {
                   <Icon name="MessageCircle" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Мессенджеры</h3>
-                  <p className="text-white/90">Telegram: @chinaauto</p>
-                  <p className="text-white/90">WhatsApp: +7 (900) 123-45-67</p>
+                  <h3 className="text-xl font-semibold mb-2">Telegram</h3>
+                  <p className="text-white/90">@aladysheff</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-white rounded-lg overflow-hidden shadow-xl">
-              <iframe 
-                src="https://yandex.ru/map-widget/v1/?ll=131.885494,43.115141&z=12&l=map"
-                width="100%" 
-                height="450"
-                frameBorder="0"
-                className="w-full"
-                title="Карта расположения"
-              ></iframe>
             </div>
           </div>
         </div>
